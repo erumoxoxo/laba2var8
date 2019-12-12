@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="List.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="TRAIN.cpp" />
   </ItemGroup>
   <ItemGroup>

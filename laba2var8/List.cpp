@@ -3,7 +3,7 @@
 //конструктор по умолчанию
 List::List()
 {
-	//std::cout << "\n \n";
+	//std::cout << "\n\n";
 	size_ = 0;
 	head_ = nullptr;
 }
@@ -23,7 +23,7 @@ void List::push(TRAIN* data)
 
 		if (current->data_->get_hours() > data->get_hours()
 			|| (current->data_->get_hours() == data->get_hours()
-				&& current->data_->get_minutes() >= data->get_minutes()))
+				&& current->data_->get_minutes() >= data->get_minutes())) // сравниваем по часам, если они равны то сравнив по минутам
 		{
 			current = new Node(data);
 			current->pNext_ = head_;

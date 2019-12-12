@@ -1,9 +1,7 @@
 #pragma once
 #include <iostream>
 
-#pragma once
-
-const int size = 30;//длина названия пункта назначения
+const int ssize = 30;//длина названия пункта назначения
 
 class TRAIN
 {

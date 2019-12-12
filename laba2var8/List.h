@@ -10,9 +10,9 @@ private:
 	class Node//элемент списка "данные + указатель на следующий"
 	{
 	public:
-		Node * pNext_;//указатель 
+		Node* pNext_;//указатель 
 		TRAIN* data_;//данные
-		Node(TRAIN* data, Node* pNext = nullptr) : data_(data), pNext_(pNext) {}
+		Node(TRAIN* data, Node* pNext = nullptr) : data_(data), pNext_(pNext){}
 	};
 
 	Node *head_;
